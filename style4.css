@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Umum untuk Body dan Link */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+/* Style untuk seluruh background */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #FF4C29;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3b8af2;
+    text-decoration: none;
+}
+
+/* Gaya untuk Header */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Membuat logo dan navbar berada di sisi kiri dan kanan */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container untuk Logo dan Teks */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Jarak antara logo dan teks */
+}
+
+/* Gaya untuk Gambar Logo */
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Gaya untuk Teks Judul */
+.logo-text {
+    line-height: 1;
+}
+
+.main-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+}
+
+/* Gaya untuk Navigasi */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: #222222;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #FF4C29;
+    text-decoration: underline;
+}
+
+/* Gaya untuk Garis Vertikal */
+.navbar::before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #222;
+    margin-right: 20px;
+}
+
+/* Gaya untuk Garis Vertikal */
+.vertical-line {
+    width: 3px;
+    height: 50px;
+    background-color: #222;
+    margin-left: 0px;
+}
+
+
+/* Footer styling */
+.footer {
+    background-color: #808080; /* Warna latar belakang abu-abu */
+    padding: 40px 0;
+    color: #ffffff;
+    text-align: left;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.footer-right h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 5px;
+}
+
+.footer-right ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    background-color: #000000; /* Warna latar belakang hitam */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Login button styling */
+.login-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-button:hover {
+    background-color: #1f67f7;
+}
+
